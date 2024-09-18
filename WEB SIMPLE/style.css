@@ -1,0 +1,75 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px; 
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.profil{
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+nav{
+    background-color: #222831;
+    color: #fff;    
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .profil{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu{
+    width: 40%;
+}
+
+.menu > ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li >a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.logo{
+    margin-bottom: 1rem;
+    margin-left: -5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.foto img{
+    margin: auto;
+    display: block;
+    margin-top: 10rem;
+    margin-right: 52rem;
+    border-radius: 5px;
+    display: flex;
+    height: 17rem;
+}
+
+.text{
+    margin-top: -18rem;
+    margin-left: 40rem;
+}
+
+.text p{
+    font-style: italic;
+}
+
+
